@@ -1,0 +1,76 @@
+eval 'exec perl -S $0 ${1+"$@"}'
+	if 0;
+
+use	strict;
+use warnings;
+use Yari2;
+
+my $yari2 = Yari2->new();
+
+$yari2->run;
+
+__END__
+
+=head1	NAME
+
+	yari2 - Yet Another Rapid Integrator by Chris Kwak
+
+=head1	SYNOPSIS
+
+yari [options]
+
+=over
+
+=item -help                         Display all options
+
+=item -shell|s <shellname>          Shell name
+
+=item -list|l <filename>            Scan file for instances and connection
+
+=item -file|f <option_file>			Read Verilog options file
+
+=item -output|o <filename>          Write top file with filename and path
+
+=item -v95                          Verilog-95 style output
+
+=item -project|proj|prj|p <projectname>	Project name for module comment
+
+=item -author|auth|a <authorname>	Author name for module comment
+
+=item -div <division>				Division name for module comment
+
+=item -desc <description>			Descriptions for module comment
+
+=item -v95                          Verilog-95 style output
+
+=item -preproc|pp					Write the preprocessed modules and con files
+
+=item -template|t					Generate template CON file in the list
+
+=item -fake							Generate fake wrapper modules
+
+=item -slice						Generate & instantiate RegSlice modules with async reset
+
+=item -slice_sr						Generate & instantiate RegSlice modules with sync reset
+
+=item -icg							Insert the explict ICG cells
+
+=item -relay | -relay_ar			Generate & instantiate Relay modules with async reset
+
+=item -relay_sr						Generate & instantiate Relay modules with sync reset
+
+=item -con_dir <dir_name>			Specify con directory
+
+=item -ipxact						Generate IP-XACT XML component file for top module
+
+=item -xml|x <xml_proj_file>		Read XML-based project file
+
+=item -abut <abut_con_file>			Read Abut connection file
+
+=item -thru <thru_con_file>			Read THRU connection file
+
+=item -no_feedthru|no_thru|no_ft	Don't read FEEDTHRU.con file
+
+=item -all 							Generate all wrapper file
+
+=cut
