@@ -1,0 +1,14 @@
+Build.PL
+Changes
+lib/Yari2.pm
+lib/Yari2/GetOpt.pm
+lib/Yari2/Parser.pm
+lib/Yari2/Utils.pm
+Makefile.PL
+MANIFEST			This list of files
+README
+t/00-load.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
+xt/boilerplate.t
