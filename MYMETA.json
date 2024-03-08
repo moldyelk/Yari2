@@ -1,0 +1,55 @@
+{
+   "abstract" : "Yet Another Rapid Integrator by Chris Kwak",
+   "author" : [
+      "Chris Kwak <moldyelk@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "ExtUtils::MakeMaker version 7.60, CPAN::Meta::Converter version 2.143240",
+   "license" : [
+      "apache_2_0"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Yari2",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Data::Dump" : "1.21",
+            "File::Basename" : "0",
+            "Getopt::Long" : "2.38",
+            "Log::Log4perl" : "1.41",
+            "Pod::Usage" : "0",
+            "Regexp::Grammars" : "1.033",
+            "Test::More" : "0",
+            "Text::Tabs" : "0",
+            "Verilog::Preproc" : "3.402",
+            "perl" : "5.010"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "2.31"
+}
