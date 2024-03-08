@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 
 my %WriteMakefileArgs = (
     NAME             => 'Yari2',
-    AUTHOR           => q{Chris Kwak <chris.kwak@samsung.com>},
+    AUTHOR           => q{Chris Kwak <moldyelk@gmail.com>},
     VERSION_FROM     => 'lib/Yari2.pm',
     ABSTRACT_FROM    => 'lib/Yari2.pm',
     LICENSE          => 'apache',
