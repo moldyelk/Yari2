@@ -1,0 +1,32 @@
+---
+abstract: 'Yet Another Rapid Integrator by Chris Kwak'
+author:
+  - 'Chris Kwak <moldyelk@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+  Test::More: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 7.60, CPAN::Meta::Converter version 2.143240'
+license: apache
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Yari2
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Data::Dump: '1.21'
+  File::Basename: '0'
+  Getopt::Long: '2.38'
+  Log::Log4perl: '1.41'
+  Pod::Usage: '0'
+  Regexp::Grammars: '1.033'
+  Test::More: '0'
+  Text::Tabs: '0'
+  Verilog::Preproc: '3.402'
+  perl: '5.010'
+version: '2.31'
